@@ -1,0 +1,169 @@
+
+:root
+
+body{
+	margin:0px;
+	font-family: 'Quicksand', sans-serif;
+	color: brown;
+
+
+}
+
+header{
+	background: linear-gradient(#ff8000,#FAC881); 
+}
+
+nav{  
+padding: 30px 5% 0 5%;
+display:flex;
+flex-wrap:wrap;
+justify-content:space-between
+
+}
+
+header nav h1{
+margin-left: 525px ;
+font-size: 45px;
+text-transform: uppercase;
+color: white;
+color: var--white;
+margin: 0;
+
+
+
+}
+
+header nav .orange{
+	display: flex;
+	align-items: center;
+}
+
+header nav .orange p{
+	margin: 0 15px 0 0;
+	
+}
+
+
+header nav .orange p:hover{
+	color: white;
+	cursor: pointer;
+
+}
+
+
+header nav .orange button{
+	padding: 10px 15px;
+	font-size: 15px;
+	background-color:inherit;
+	border: 1px solid var--white;
+	color:var--white ;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.presentation{
+	padding: 30px 5%;
+	margin-top: 5%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+} 
+
+.presentation .productpresentation{
+	width: 100%;
+	flex-shrink: 3;
+}
+
+.presentation .productpresentation h1{
+	margin: O;
+	font-size: 4vw;
+	width: 80%;
+}
+
+
+.presentation .productpresentation p{
+	font-weight: 300;
+}
+
+.presentation .productpresentation button{
+	margin-top: 20px;
+	padding: 15px 20px;
+	font-size: 15px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background-color:#FFA500;
+}
+
+.presentation .image-presentation img{
+width: 800px;
+height: 800px
+}
+
+.first .productpresentation .smallimage{
+	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.first .productpresentation .smallimage .small{
+	padding: 20px;
+	background-color:#FFA500;
+	margin: 0 15px 15px 0;
+	border-radius: 5px;
+
+}
+
+.first .productpresentation .smallimage .small img{
+	width: 120px;
+	height: 70px;
+}
+
+.first .productpresentation button{
+	background-color:#FFA500 ;
+	color: white;
+}
+.first .productpresentation button:hover{
+	background-color:brown;
+	border: 1px solid white;
+}
+
+.second{
+	margin: 0;
+	background-color:#DEB887 ;
+
+}
+.second .productpresentation .new{
+	color: #582900;
+}
+
+.second .productpresentation button{
+	background-color:brown ;
+	color: white;
+	border: 1px solid white;
+	
+
+}
+
+.second .productpresentation button:hover{
+	background-color:#DEB887 ;
+}
+
+footer{
+	margin: 0;
+	background-color:#DEB887 ;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+	justify-content: space-around;
+}
+
+footer p{
+	cursor: pointer;
+}
+
+footer p:hover{
+	color: white;
+}
